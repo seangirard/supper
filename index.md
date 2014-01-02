@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Welcome, sit down to Supper
+title: let's sit down together
 ---
 
 {% include home.md %}
+

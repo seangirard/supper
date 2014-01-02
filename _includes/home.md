@@ -1,10 +1,10 @@
-Things for Supper
+What is for Supper?
 ===
 
 <ul>
 {% for post in site.posts %}
   <li class="post">
-    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>
