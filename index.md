@@ -5,6 +5,8 @@ title: Welcome, sit down to Supper
 
 {% include home.md %}
 	
+test
+
 <ul>
 {% for post in site.posts %}
   <li class="post">
