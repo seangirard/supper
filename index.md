@@ -1,6 +1,6 @@
 ---
 layout: default
-title: let's sit down together
+title: 
 ---
 
 {% include home.md %}

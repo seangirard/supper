@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Asian Slaw Dressing
+subtitle: a la Noodle Express
 ---
-
-# {{ page.title }} <small>a la Noodle Express</small>
+I like to serve this over shredded cabbage, grated carrots, and half-rounds of cucumber. But it makes a good general purpose dressing, too.
 
 * 1/2 c canola oil
 * 1/2 c white vinegar
@@ -13,5 +13,5 @@ title: Asian Slaw Dressing
 * 1 t sesame oil 
 * 1/4 t ground pepper
 * 1/4 t salt
-***
-Blend ingredients for 30 seconds.
+
+>Blend ingredients for 30 seconds.
