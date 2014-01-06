@@ -3,7 +3,6 @@ layout: default
 title: Asian Slaw Dressing
 subtitle: a la Noodle Express
 ---
-I like to serve this over shredded cabbage, grated carrots, and half-rounds of cucumber. But it makes a good general purpose dressing, too.
 
 * 1/2 c canola oil
 * 1/2 c white vinegar
@@ -15,3 +14,7 @@ I like to serve this over shredded cabbage, grated carrots, and half-rounds of c
 * 1/4 t salt
 
 >Blend ingredients for 30 seconds.
+
+I like to serve this over shredded cabbage, grated carrots, and half-rounds of cucumber. 
+
+But it makes a good general purpose dressing, too.
