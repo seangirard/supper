@@ -1,2 +1,2 @@
 baseurl:     /supper
-permalink: /:title
+permalink: /:categories/:title

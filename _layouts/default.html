@@ -43,11 +43,11 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class=""><a href="{{ site.baseurl }}/">During Supper</a></li>
-            <li class=""><a href="{{ site.baseurl }}/">Before Supper</a></li>
-            <li class=""><a href="{{ site.baseurl }}/">After Supper</a></li>
-            <li class=""><a href="{{ site.baseurl }}/">Early Supper</a></li>
-            <li class=""><a href="{{ site.baseurl }}/">Breakfast for Supper</a></li>
+            <li class=""><a href="{{ site.baseurl }}/during/">During Supper</a></li>
+            <li class=""><a href="{{ site.baseurl }}/before/">Before Supper</a></li>
+            <li class=""><a href="{{ site.baseurl }}/after/">After Supper</a></li>
+            <li class=""><a href="{{ site.baseurl }}/early">Early Supper</a></li>
+            <li class=""><a href="{{ site.baseurl }}/morning">Morning Supper</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -67,16 +67,29 @@
     
     <hr>
     <div class="container">
-    	<div class="alert alert-info text-center">
-    		<a class="btn btn-info" href="{{ site.baseurl }}/">How to Make Supper</a>
-    		<a class="btn btn-info" href="{{ site.baseurl }}/about/">What is this Supper?</a>
-    	</div>
-	<p class="text-muted">
+    	<div class="">
+    		<div class="row">
+          <div class="col-sm-6">
+        		<p class="">
+              <a class="btn btn-info btn-block" href="{{ site.baseurl }}/make/">
+                How to Make Supper
+              </a>
+            </p>
+          </div>
+          <div class="col-sm-6">
+    		    <p class="">
+              <a class="btn btn-info btn-block" href="{{ site.baseurl }}/about/">
+                What is this Supper?
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    	<p class="text-muted">
     		Supper is <a href="http://github.com/seangirard">Sean's</a> idea.
     	</p>
-    	</div>
     </div>
-
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
