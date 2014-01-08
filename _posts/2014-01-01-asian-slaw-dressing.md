@@ -16,4 +16,4 @@ subtitle: a la Noodle Express
 * 1/4 t ground pepper
 * 1/4 t salt
 
-Blend ingredients for 30 seconds.
+Blend ingredients for 30 seconds. Done.
