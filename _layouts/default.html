@@ -54,15 +54,15 @@
     </div>
 
     <div class="container" style="font-size:18px;">
-      {% if page.title }%}
+      {% if page.title %}
       <h1 class="" style="margin-top:0px;">
         <small class="glyphicon glyphicon-hand-right text-info"> </small>
         {{ page.title }}
-        {% if page.subtitle }%}<small>{{page.subtitle}}</small>{% endif %}
+        {% if page.subtitle %}<small>{{page.subtitle}}</small>{% endif %}
       </h1>
       {% endif %}
     
-      {% if page.date }%}
+      {% if page.date %}
       <div class="panel panel-info" style="border-left-width:4px;">
         <div class="panel-body lead">
         {{ content }}
