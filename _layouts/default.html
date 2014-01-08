@@ -27,7 +27,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -37,8 +37,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="{{ site.baseurl }}/">
-           	  <i class="glyphicon glyphicon-cutlery text-danger"></i> 
-            	  <span class="text-danger">Supper</span>
+           	  <i class="glyphicon glyphicon-cutlery text-primary"></i> 
+            	  <span class="text-primary">Supper</span>
           </a>
         </div>
         <div class="collapse navbar-collapse">
@@ -53,16 +53,20 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" style="font-size:18px;">
       {% if page.title }%}
-      <h1>
+      <h1 style="margin-top:0px;">
         {{ page.title }}
         {% if page.subtitle }%}<small>{{page.subtitle}}</small>{% endif %}
       </h1>
       {% endif %}
     
-      {{ content }}
-
+      <div class="panel panel-primary">
+        <div class="panel-body">
+        {{ content }}
+        </div>
+      </div>
+      
     </div><!-- /.container -->
     
     <hr>
@@ -88,6 +92,7 @@
 
     	<p class="text-muted">
     		Supper is <a href="http://github.com/seangirard">Sean's</a> idea.
+        You can <a href="http://github.com/seangirard/supper">fork it on github</a>.
     	</p>
     </div>
 
