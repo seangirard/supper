@@ -37,8 +37,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="{{ site.baseurl }}/">
-           	  <i class="glyphicon glyphicon-cutlery text-primary"></i> 
-            	  <span class="text-primary">Supper</span>
+           	  <i class="glyphicon glyphicon-cutlery text-danger"></i> 
+            	  <span class="text-danger">Supper</span>
           </a>
         </div>
         <div class="collapse navbar-collapse">
@@ -55,13 +55,14 @@
 
     <div class="container" style="font-size:18px;">
       {% if page.title }%}
-      <h1 style="margin-top:0px;">
+      <h1 class="" style="margin-top:0px;">
+        <small class="glyphicon glyphicon-hand-right text-info"> </small>
         {{ page.title }}
         {% if page.subtitle }%}<small>{{page.subtitle}}</small>{% endif %}
       </h1>
       {% endif %}
     
-      <div class="panel panel-primary">
+      <div class="panel panel-info" style="border-left-width:4px;">
         <div class="panel-body">
         {{ content }}
         </div>
@@ -92,7 +93,7 @@
 
     	<p class="text-muted">
     		Supper is <a href="http://github.com/seangirard">Sean's</a> idea.
-        You can <a href="http://github.com/seangirard/supper">fork it on github</a>.
+        You can <a href="http://github.com/seangirard/supper">fork supper on github</a>.
     	</p>
     </div>
 
