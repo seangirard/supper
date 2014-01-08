@@ -4,12 +4,11 @@ title: Coconut Tumeric Rice
 ---
 
 
-* 3/4 c white rice
-* 1/2 t turmeric
+* 2 c white rice
+* 1 t turmeric
 * 1 t vegetable oil
 * 1/4 t salt
-* 3/4 c water
-* 1/3 c coconut milk
+* 1 14oz can  coconut milk, plus 1 can water
 
 Rinse and drain the rice
 
