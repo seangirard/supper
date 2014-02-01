@@ -1,0 +1,7 @@
+{
+  "title"    : "{{ post.title }}",
+  "category" : "{{ post.category }}",
+  "tags"     : [{% for tag in post.tags %}"{{ tag }}",{% endfor %} null],
+  "href"     : "{{ site.baseurl }}{{ post.url }}",
+  "value"  :  "{{ post.title }}"
+}

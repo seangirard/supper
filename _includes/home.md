@@ -1,4 +1,3 @@
-
 <ul class="nav nav-pills">
 {% for post in site.posts %}
   <li class="post">
